@@ -1,13 +1,13 @@
-# Recipe Search website Forkify.
+# Forkify. Website for recipes search.
 
-Second project, built with using *Node.js* and *npm*, *AJAX*, *local storages*. Also the most advanced features ES6 of JavaScript such as classes, module exports / imports, arrow functions were used. 
+My second project. To build it I used numerous new (to me) tools. Here is a short list: *Node.js* and *npm*, *AJAX*, *local storages* etc. Also the most advanced features of ES6 JS were used. 
 
 
 ## Launch
 
-* To simply see the **final version** of the app click the *link* above next to the description. 
+* To simply check the **final version** of the app click the *link* above next to the description. 
 
-* **Public code** of the app is located in "*dist* folder. 
+* **Public code** of the app used for *deployment* is located in "*dist* folder. 
 
 * To launch the **development code** on your computer download *zip file*. Extract in project empty folder. To install all dependencies *open npm* and type:
 
@@ -27,7 +27,7 @@ Second project, built with using *Node.js* and *npm*, *AJAX*, *local storages*. 
 
 * First time worked with **AJAX** and implemented **API calls** using *"axios"* library to send promises to the recipes server, fetching data and catching the errors.
 
-* Opened a new for me feature called **local storage**. Helps to store *favourite recipes* list information throughout multiple sessions locally in user's browser.
+* Opened a new (for me) feature called **local storage**. It helps to store *favourite recipes* list information throughout multiple sessions locally in user's browser.
 
 * Thoroughly used all *Next Generation* features of *ES6*, such as: 
 

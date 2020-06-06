@@ -1,11 +1,11 @@
-# Forkify! Website for recipes search!
+# Forkify. Website for recipes search!
 
 My second project. To build it I used numerous new (to me) tools. Here is a short list: *Node.js* and *npm*, *AJAX*, *local storages* etc. Also the most advanced features of ES6 JS were used. 
 
 
 ## Launch
 
-* To simply check the **final version** of the app click the *link* above next to the description. 
+* Need **final version**? Simply check of the app click the *link* above next to the description. 
 
 * **Public code** of the app used for *deployment* is located in "*dist* folder. 
 

@@ -54,4 +54,4 @@ Second project, built with using *Node.js* and *npm*, *AJAX*, *local storages*. 
 
 ## Acknowledgments
 
-* Many thank to **Jonas**. My first online *Udemy teacher* for babysitting me :) and providing a great opportunity to practice the core set of JS skills, which helped me to build a strong foundation of me as a front-end developer. 
+* Many thanks to **Jonas**! My first online *Udemy teacher* for babysitting me :) and providing a great opportunity to practice the core set of JS skills, which helped me to build a strong foundation of me as a front-end developer. 

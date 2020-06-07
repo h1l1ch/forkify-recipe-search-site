@@ -2,14 +2,25 @@
 
 My second project. To build it I used numerous new (to me) tools. Here is a short list: *Node.js* and *npm*, *AJAX*, *local storages* etc. Also the most advanced features of ES6 JS were used. 
 
+## How to use
 
-## Launch
+* You can **search** recipes by typing *keywords* inside the input field. For example, *pizza*, *broccoli*, *tomato* etc. Press **search** or **enter** button.
 
-* Need **final version**? Simply check of the app click the *link* above next to the description. 
+* List of **recipe results** will be displayed *on the left*. **Choose** the one you fell in love with and *recipe's information* will pop *in the center*. Also you can **flip the pages** by pressing *page buttons*. 
 
-* **Public code** of the app used for *deployment* is located in "*dist* folder. 
+* Here (inside recipe's field) you **can change** *servings' number* depending on your needs. 
 
-* To launch the **development code** on your computer download *zip file*. Extract in project empty folder. To install all dependencies *open npm* and type:
+* Press **add to shopping list** button to add ingredients to your *shopping list*. Inside of the *shopping list* you can **delete** ingredients or **change their quantity** by pressing "+" / "-" buttons.
+
+* Also you can **favourite** your recipe by pressing *"heart" button*, which is placed *to the right*. *Favourited recipes* are placed inside of the *local storage* and are **stored through multiple browser sessions**. Can be accessed **by pointing "heart" symbol** at the top right corner. You can **access** you recipe by *clicking its icon*.
+
+## How to launch
+
+* Need **final version**? Simply check link of the app. It is *in the header* next to the *description*. 
+
+* **Deployment code** is located in "*public*" folder. 
+
+* To launch **development code** download *zip file* on your computer. Extract it into the empty folder. Then open npm to install all dependencies. Inside project's directory type:
 
   ```
   npm init
@@ -20,6 +31,24 @@ My second project. To build it I used numerous new (to me) tools. Here is a shor
   npm run start
   ```
   You are ready to go and search for your cooking recipes ;)
+  
+## Project structure
+
+* **/dist/** depository includes code *ready for deployment*.
+
+* **/src/** depository includes *development code*:
+
+  * **/src/js/** depository includes *development JavaScript code*: **/src/js/models/** includes files responsible for *logic behind the scenes* and **/src/js/views/** includes files responsible for  information displayed onto *User Interface*.
+  
+  * **/index.html** - core HTML file.
+
+* **/.babelrc** - file that includes *ruleset*, by which *Babel should conduct*. 
+    
+* **/.gitignore** is a list filled with *exceptions for Git*. Once the whole project is commited exceptions will be ignored. 
+
+* **/webpack.config.js** - file includes *webpack configurations*.
+         
+* **/.package.json** and **/.package-lock.json** both keep the list of requirements, which allow npm to download all necessary dependencies for further successful project loading. 
 
 ## What I've learned 
 

@@ -6,17 +6,17 @@ My second project. To build it I used numerous new (to me) tools. Here is a shor
 
 * You can **search** recipes by typing *keywords* inside the input field. For example, *pizza*, *broccoli*, *tomato* etc. Press **search** or **enter** button.
 
-* List of **recipe results** will be displayed *on the left*. **Choose** the one you fell in love with and *recipe's information* will pop *in the center*. Also you can **flip the pages** by pressing *page buttons*. 
+* List of the **recipe results** will be displayed *on the left*. **Choose the one** you fell in love with and *its information* will pop *at the center*. Also you can **flip the pages** of recipes list by pressing *page buttons*. 
 
-* Here (inside recipe's field) you **can change** *servings' number* depending on your needs. 
+* Here (inside of the recipe's field) you **can change** *servings number* depending on your needs. 
 
-* Press **add to shopping list** button to add ingredients to your *shopping list*. Inside of the *shopping list* you can **delete** ingredients or **change their quantity** by pressing "+" / "-" buttons.
+* Press **"add to shopping list"** button to add ingredients to your *shopping list*. Inside of the *shopping list* you can **delete** ingredients or **change their quantity** by pressing "+" / "-" buttons.
 
-* Also you can **favourite** your recipe by pressing *"heart" button*, which is placed *to the right*. *Favourited recipes* are placed inside of the *local storage* and are **stored through multiple browser sessions**. Can be accessed **by pointing "heart" symbol** at the top right corner. You can **access** you recipe by *clicking its icon*.
+* Also you can **favourite** your recipe by pressing "heart" button, which is placed *to the right*. *Favourited recipes* are placed inside of the *local storage* and are **stored through multiple browser sessions**. Can be accessed **by pointing "heart" symbol** at the top right corner. You can **access** you recipe by *clicking its icon*.
 
 ## How to launch
 
-* Need **final version**? Simply check link of the app. It is *in the header* next to the *description*. 
+* Need **final version**? Simply check out link of the app. It is *in the header* next to the *description*. 
 
 * **Deployment code** is located in "*public*" folder. 
 
@@ -34,25 +34,25 @@ My second project. To build it I used numerous new (to me) tools. Here is a shor
   
 ## Project structure
 
-* **/dist/** depository includes code *ready for deployment*.
+* **/dist/** depository includes code ready for deployment.
 
-* **/src/** depository includes *development code*:
+* **/src/** depository includes development code:
 
-  * **/src/js/** depository includes *development JavaScript code*: **/src/js/models/** includes files responsible for *logic behind the scenes* and **/src/js/views/** includes files responsible for  information displayed onto *User Interface*.
+  * **/src/js/** depository includes development JavaScript code: **/src/js/models/** includes files responsible for logic *behind the scenes* and **/src/js/views/** includes files responsible for  information *displayed onto User Interface*.
   
   * **/index.html** - core HTML file.
 
-* **/.babelrc** - file that includes *ruleset*, by which *Babel should conduct*. 
+* **/.babelrc** - file that includes *ruleset*, by which Babel should conduct. 
     
 * **/.gitignore** is a list filled with *exceptions for Git*. Once the whole project is commited exceptions will be ignored. 
 
-* **/webpack.config.js** - file includes *webpack configurations*.
+* **/webpack.config.js** - file includes webpack configurations.
          
 * **/.package.json** and **/.package-lock.json** both keep the list of requirements, which allow npm to download all necessary dependencies for further successful project loading. 
 
 ## What I've learned 
 
-* How to **Setup a Workflow** using *Node.js* and *npm*. Its core dependencies allowed me to optimize my code and not to worry about the server side of my project.  
+* How to **Setup a Workflow** using *Node.js* and *npm*. Its core dependencies allowed me to optimize my code and *not to worry about the server side* of my project.  
 
 * First time worked with **AJAX** and implemented **API calls** using *"axios"* library to send promises to the recipes server, fetching data and catching the errors.
 

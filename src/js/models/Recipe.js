@@ -85,11 +85,15 @@ export default class Recipe {
     }
 
     updateServings (type) {
-        console.log('method is working')
+        let newServings = 0;
         // Update Servings
-        const newServings = type === 'dec' ? this.servings - 1 : this.servings + 1; 
+        if (this.servings > 1) {
+            newServings = type === 'dec' ? this.servings - 1 : this.servings + 1; 
+        } else {
+            newServings = type === 'dec' ? this.servings : this.servings + 1; 
+        }
         // Update Ingredients 
-        this.ingredients.forEach(el =>( el.count *= (newServings / this.servings)));
+        this.ingredients.forEach(el =>( el.count *= (newServings / this.servings).toFixed(1)));
         this.servings = newServings;
     }
 } 

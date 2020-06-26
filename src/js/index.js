@@ -102,7 +102,7 @@ const controlRecipe = async () => {
             removeLoader();    
             recipeView.renderRecipe(state.recipe, state.likes.isLiked(id));
         } catch (error) {
-            console.log("Something went wrong. Could not get the recipe :(")
+            console.log("Something went wrong. Could not get the recipe :(" )
         }
     }
 };
